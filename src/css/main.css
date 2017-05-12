@@ -139,11 +139,13 @@ textarea {
 
 body {
     font-family: 'Roboto Mono', monospace;
+    font-size: 14px;
 }
 
 header {
-    background: e7e7e6;
-    padding: 8% 0px;
+    background: #e7e7e6;
+    padding: 15% 0px;
+
     /*
     background-image: url('../img/1.png');
     background-repeat: no-repeat;
@@ -160,8 +162,13 @@ header img {
 
 }
 
+section{
+    margin-top: 5%;
+    min-height: 1000px;
+}
+
 div.logo{
-    width: 80%;
+    width: 65%;
     margin: auto;
 }
 
@@ -239,18 +246,38 @@ aside {
 } 
 
 section.togo {
-    background: e7e7e6;
-    padding: 8% 0px;
-    max-width: 600px;
-    margin: auto;
+    background: #e7e7e6;
     width: 100%;
     position: relative;
 }
 
-.holidays {
+section.togo .where {
+    width: 35%;
     position: absolute;
-    top: 50%;
-    right: 0;
+    top: 10%;
+    left: 17%;
+}
+
+
+section.togo .holidays {
+    width: 33%;
+    position: absolute;
+    top: 10%;
+    right: 10%;
+}
+
+section.togo .statista {
+    width: 33%;
+    position: absolute;
+    top: 20%;
+    right: 10%;
+}
+
+section.togo .hopes {
+    width: 33%;
+    position: absolute;
+    top: 36%;
+    right: 10%;
 }
 
 section img {
@@ -260,62 +287,87 @@ section img {
 }
 
 section.france {
-    background: e7e7e6;
-    padding: 20% 0px;
-    max-width: 100%;
-    margin: auto;
+    background: #e7e7e6;
     width: 100%;
     position: relative;
 }
 
-
-section img {
-    margin: auto;
-    max-width: 100%;
+section.france .catedral {
+    width: 33%;
+    position: absolute;
+    top: 15%;
+    right: 10%;
 
 }
 
+section.france .visitors {
+    width: 33%;
+    position: absolute;
+    top: 0;
+    left: 15%;
+    
+}
+
+section img {
+    max-width: 100%;
+
+}
 .visitors {
     position: absolute;
-    top: 0%;
+    top: 10%;
     right: 0;
 }
 
 section.tokio {
-    background: e7e7e6;
-    padding: 8% 0px;
+    background: #e7e7e6;
     max-width: 100%;
-    margin: auto;
+    width: 100%;
+    position: relative;
+}
+
+section.tokio .disney {
+    position: absolute;
+    top: 10%;
+    right: 0;
+}
+
+
+section img {
+    max-width: 100%;
+}
+
+section.tokio .visitors2{
+    width: 33%;
+    position: absolute;
+    top: 150%;
+    right: 10%;
+}
+
+.visitors2 {
+    position: absolute;
+    top: 10%;
+    right: 0;
+}
+
+section.advert {
+    background: #e7e7e6;
+    max-width: 55%;
+    margin: right;
     width: 100%;
     position: relative;
 }
 section img {
-    margin: auto;
-    max-width: 100%;
-
-}
-
-section.advert {
-    background: e7e7e6;
-    padding: 8% 0px;
-    max-width: 100%;
-    margin: auto;
-    width: 100%;
-    overflow: auto;
-}
-section img {
-    margin: auto;
+    
     max-width: 100%;
 
 }
 
 section.beijin {
-    background: e7e7e6;
-    padding: 8% 0px;
-    max-width: 100%;
-    margin: auto;
+    background: #e7e7e6;
+    padding: 5% 0px;
+    max-width: 30%;
     width: 100%;
-    overflow: auto;
+    position: relative;
 }
 section img {
     margin: auto;
@@ -323,16 +375,14 @@ section img {
 
 }
 
-section.lasvegas {
-    background: e7e7e6;
+section.vegas {
+    background: #e7e7e6;
     padding: 8% 0px;
-    max-width: 100%;
-    margin: auto;
+    max-width: 33%;
     width: 100%;
-    overflow: auto;
+    position: relative;
 }
 section img {
-    margin: auto;
     max-width: 100%;
 
 }

@@ -3,13 +3,14 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="x-ua-compatible" content="ie=edge">
-        <title></title>
-        <meta name="description" content="">
+        <title>My Website</title>
+        <meta name="description" content="My website is going to be great!">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
         <link rel="apple-touch-icon" href="apple-touch-icon.png">
         <!-- Place favicon.ico in the root directory -->
 
+        <link href="https://fonts.googleapis.com/css?family=Roboto+Mono" rel="stylesheet">
         <link rel="stylesheet" href="css/normalize.css">
         <link rel="stylesheet" href="css/main.css">
         <script src="js/vendor/modernizr-2.8.3.min.js"></script>
@@ -19,10 +20,104 @@
             <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
         <![endif]-->
 
-        <!-- Add your site or application content here -->
-        <p>Hello world! This is HTML5 Boilerplate.</p>
-        <script src="https://code.jquery.com/jquery-{{JQUERY_VERSION}}.min.js" integrity="{{JQUERY_SRI_HASH}}" crossorigin="anonymous"></script>
-        <script>window.jQuery || document.write('<script src="js/vendor/jquery-{{JQUERY_VERSION}}.min.js"><\/script>')</script>
+        <nav>
+            <ul>
+                <li><a href="#/about">About</a></li>
+                <li><a href="#/contact">Contact</a></li>
+                <li><a href="#/home">Home</a></li>
+            </ul>
+        </nav>
+
+
+        <header>
+            <h2>Take a walk on the wild side</h2>
+            <div class="logo">
+                <img src="./img/1.png" />
+            </div>
+            <div class="january">
+                xxxx
+            </div>
+            <div class="author">
+
+               <blockquote>
+                    <cite>@DENA LEVITZ</cite>
+                    <p>Cover design by @garagonmx</p>
+                </blockquote>
+
+
+                <blockquote>
+                    <cite> We round up the most popular tourist attractions to visit or, if you hate tourists, to avoid.</cite>
+                    <p>10 / January / 2016/p>
+                </blockquote>
+            </div>
+        </header>
+
+            
+        <section>
+            <h2>Where to go</h2>
+            <article>
+            <div> 
+                <p> With more holidays approaching, families won't all celebrate at home, like a Norman Rockwell painting. Hordes are hopping onto planes, trains and buses to play tourist all over the world, using breaks from daily obligations to relax on a beach or check out some ancient ruins. </p>
+            </div>
+
+        <div> 
+            <h2> NOTE </h2>
+                <p>Statista conveniently keeps track of the most visited attractions worldwide via Love Home Swap. We drew from the most recent rankings, which are based on data from April 2014. This isn't a list of the most visited sites in the world - we chose cities and found their most visited site, though these were all near the top. Some metropolises, like New York, have multiple tourist attractions which fared well in this list, but we went with only the top site for each city as a benchmark to put the cities in order from least visitors to most. 
+                </p>
+
+        </div>
+            
+                <img src="img/image.jpeg" />
+
+            </article>
+
+            <aside>
+                <h4>Header 4</h4>
+                <h5>Header 5</h5>
+                <h6>Header 6</h6>
+            </aside>
+        </section>
+
+
+        <section class="video">
+            <h3>Video Title</h3>
+            <button>Play</button>
+            <video autoplay muted loop>
+              <source src="video/video.mp4" type="video/mp4">
+              Your browser does not support HTML5 video.
+            </video>
+        </section>
+
+
+        <section class="grid">
+            <div class="grid-item">1</div>
+            <div class="grid-item">2</div>
+            <div class="grid-item">3</div>
+            <div class="grid-item">4</div>
+            <div class="grid-item">5</div>
+            <div class="grid-item">6</div>
+        </section>
+
+
+        <section>
+            <form>
+              First name:<br>
+              <input type="text" name="firstname">
+              <br>
+              Last name:<br>
+              <input type="text" name="lastname">
+              <input type="submit" name="submit" />
+            </form>
+        </section>
+
+
+        <footer>Footer &copy;</footer>
+
+        <button class="scroll-to-top">Scroll to top</button>
+
+       <!--  <script src="https://code.jquery.com/jquery-{{JQUERY_VERSION}}.min.js" integrity="{{JQUERY_SRI_HASH}}" crossorigin="anonymous"></script>
+        <script>window.jQuery || document.write('<script src="js/vendor/jquery-3.2.1.js"><\/script>')</script> -->
+        <script src="js/vendor/jquery-3.2.1.js"></script>
         <script src="js/plugins.js"></script>
         <script src="js/main.js"></script>
 
