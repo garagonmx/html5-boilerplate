@@ -61,6 +61,7 @@ html {
     color: #222;
     font-size: 1em;
     line-height: 1.4;
+    
 }
 
 /*
@@ -140,6 +141,7 @@ textarea {
 body {
     font-family: 'Roboto Mono', monospace;
     font-size: 14px;
+    background: #e7e7e6;
 }
 
 header {
@@ -156,7 +158,7 @@ header {
 
 header img {
     margin: auto;
-    max-width: 80%;
+    max-width: 100%;
     align-self: center;
 
 
@@ -164,11 +166,11 @@ header img {
 
 section{
     margin-top: 5%;
-    min-height: 1000px;
+    min-height: 800px;
 }
 
 div.logo{
-    width: 65%;
+    width: 55%;
     margin: auto;
 }
 
@@ -262,21 +264,21 @@ section.togo .where {
 section.togo .holidays {
     width: 33%;
     position: absolute;
-    top: 10%;
+    top: 20%;
     right: 10%;
 }
 
 section.togo .statista {
     width: 33%;
     position: absolute;
-    top: 20%;
+    top: 35%;
     right: 10%;
 }
 
 section.togo .hopes {
     width: 33%;
     position: absolute;
-    top: 36%;
+    top: 57%;
     right: 10%;
 }
 
@@ -295,7 +297,7 @@ section.france {
 section.france .catedral {
     width: 33%;
     position: absolute;
-    top: 15%;
+    top: 10%;
     right: 10%;
 
 }
@@ -303,7 +305,7 @@ section.france .catedral {
 section.france .visitors {
     width: 33%;
     position: absolute;
-    top: 0;
+    top: 25%;
     left: 15%;
     
 }
@@ -323,11 +325,13 @@ section.tokio {
     max-width: 100%;
     width: 100%;
     position: relative;
+    height:1700px;
+
 }
 
 section.tokio .disney {
     position: absolute;
-    top: 10%;
+    top: 15%;
     right: 0;
 }
 
@@ -339,7 +343,7 @@ section img {
 section.tokio .visitors2{
     width: 33%;
     position: absolute;
-    top: 150%;
+    top: 70%;
     right: 10%;
 }
 
@@ -351,15 +355,19 @@ section.tokio .visitors2{
 
 section.advert {
     background: #e7e7e6;
-    max-width: 55%;
-    margin: right;
     width: 100%;
     position: relative;
 }
-section img {
-    
-    max-width: 100%;
 
+section.advert .canon{
+    position: absolute;
+    top: 0;
+    right:0;
+}
+section div.canon img {
+     max-width: 100%;
+     width: 50%;
+     right: :0;
 }
 
 section.beijin {
