@@ -139,9 +139,11 @@ textarea {
    ========================================================================== */
 
 body {
-    font-family: 'Roboto Mono', monospace;
+    font-family:'Source Sans Pro', sans-serif;
+    font-weight: lighter;
     font-size: 14px;
-    background: #e7e7e6;
+    /*background: #e7e7e6;
+    */
 }
 
 header {
@@ -177,6 +179,15 @@ div.logo{
 h1 {
     font-size: 48px;
     color: hotpink;
+}
+
+.caja h1{
+    background: purple;
+    width: 80px;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 #logo {
@@ -254,7 +265,7 @@ section.togo {
 }
 
 section.togo .where {
-    width: 35%;
+    width: 38%;
     position: absolute;
     top: 10%;
     left: 17%;
@@ -262,24 +273,24 @@ section.togo .where {
 
 
 section.togo .holidays {
-    width: 33%;
+    width: 25%;
     position: absolute;
-    top: 20%;
-    right: 10%;
+    top: 13%;
+    right: 28%;
 }
 
 section.togo .statista {
-    width: 33%;
+    width: 25%;
     position: absolute;
-    top: 35%;
-    right: 10%;
+    top: 38%;
+    right: 15%;
 }
 
 section.togo .hopes {
-    width: 33%;
+    width: 25%;
     position: absolute;
-    top: 57%;
-    right: 10%;
+    top: 70%;
+    right: 28%;
 }
 
 section img {
@@ -295,18 +306,18 @@ section.france {
 }
 
 section.france .catedral {
-    width: 33%;
+    width: 38%;
     position: absolute;
-    top: 10%;
-    right: 10%;
+    top: 13%;
+    right: 15%;
 
 }
 
 section.france .visitors {
-    width: 33%;
+    width: 25%;
     position: absolute;
-    top: 25%;
-    left: 15%;
+    top: 40%;
+    left: 13%;
     
 }
 
@@ -341,10 +352,10 @@ section img {
 }
 
 section.tokio .visitors2{
-    width: 33%;
+    width: 25%;
     position: absolute;
     top: 70%;
-    right: 10%;
+    right: 30%;
 }
 
 .visitors2 {
@@ -357,6 +368,7 @@ section.advert {
     background: #e7e7e6;
     width: 100%;
     position: relative;
+    min-height: 600px;
 }
 
 section.advert .canon{
@@ -367,28 +379,61 @@ section.advert .canon{
 section div.canon img {
      max-width: 100%;
      width: 50%;
-     right: :0;
+     right: 0;
+     float: right;
+     max-height: 800px;
 }
 
 section.beijin {
     background: #e7e7e6;
-    padding: 5% 0px;
-    max-width: 30%;
     width: 100%;
     position: relative;
 }
+
+section.beijin .forbiden{
+    width: 33%;
+    position: absolute;
+    top: 0;
+    left: 15%;
+}
+
+section.beijin .visitors {
+    width: 33%;
+    position: absolute;
+    top: 25%;
+    right: 15%;   
+}
+
 section img {
-    margin: auto;
     max-width: 100%;
 
 }
 
+.visitors3 {
+    position: absolute;
+    width: 25%;
+    top: 40%;
+    right: 20%
+}
+
 section.vegas {
     background: #e7e7e6;
-    padding: 8% 0px;
-    max-width: 33%;
     width: 100%;
     position: relative;
+}
+
+section.vegas .lasvegas {
+    width: 33%;
+    position: absolute;
+    top: 0;
+    right: 15%;
+}
+
+section.vegas .visitors4 {
+    width: 27%;
+    position: absolute;
+    top: 25%;
+    left: 15%;   
 }
 section img {
     max-width: 100%;
@@ -472,6 +517,14 @@ button.scroll-to-top {
 }
 div.january{
     display: inline-block;
+}
+
+
+@media only screen and (max-device-width: 768px) {
+    /* anything inside here only applies only to mobile screens <768px */
+    body{
+        background: red;
+    }
 }
 
 
