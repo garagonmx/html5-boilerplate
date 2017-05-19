@@ -73,7 +73,7 @@ html {
  */
 
 ::selection {
-    background: #b3d4fc;
+    background: #e7e7e6;
     text-shadow: none;
 }
 
@@ -143,8 +143,8 @@ body {
     font-weight: lighter;
     font-size: 14px;
     line-height: 22px;
-    /*background: #e7e7e6;
-    */
+    background: #e7e7e6;
+    
 }
 
 header {
@@ -169,7 +169,7 @@ header img {
 
 section{
     margin-top: 5%;
-    min-height: 800px;
+    min-height: 820px;
 }
 
 div.logo{
@@ -196,11 +196,12 @@ h1 {
 }
 
 h2 {
-    font-size: 36px;
+    font-size: 37px;
     background: violet;
     width: 100%;
-    text-align: center;
-    margin: 0 0 10px;
+    text-align: left;
+    margin: 13px 0px 10px;
+    line-height: 38px;
 }
 
 h3 {
@@ -306,7 +307,7 @@ section.france {
     background: #e7e7e6;
     width: 100%;
     position: relative;
-    height: 1000px;
+    height: 1200px;
 }
 
 section.france .catedral {
@@ -320,7 +321,7 @@ section.france .catedral {
 section.france .visitors {
     width: 25%;
     position: absolute;
-    top: 40%;
+    top: 38%;
     left: 13%;
     
 }
@@ -476,7 +477,7 @@ section.news .where form {
 }
 
 form{
-        background: #e7e7e6;
+    background: #e7e7e6;
     font-family: 'Roboto Mono', monospace;
     line-height: 2.5;
     width: 100%;
@@ -651,7 +652,7 @@ article img {
 */
 
 footer {
-    background: red;
+    background: #e7e7e6;
     float: left;
     clear: both;
     width: 100%;
@@ -666,8 +667,173 @@ div.january{
 }
 
 
-@media only screen and (max-device-width: 768px) {
+@media (max-width: 768px) {
     /* anything inside here only applies only to mobile screens <768px */
+   
+    div.logo {
+    width: 92%;
+    margin: auto;
+    position: relative;
+    top: 20px;
+}
+   section.togo {
+    background: #e7e7e6;
+    width: 100%;
+    position: relative;
+    top: 100px;
+}
+   section.togo .where {
+    width: 91%;
+    position: relative;
+    top: 0;
+    left: 20px;
+}
+    section.togo .holidays {
+    width: 90%;
+    position: relative;
+    top: 40px;
+    right: -5%;
+}
+
+section.togo .statista {
+    width: 90%;
+    position: relative;
+    top: 51px;
+    right: -19px;
+    font-size: 12px;
+    line-height: 16px;
+    font-style: oblique;
+}
+
+section.togo .hopes {
+    width: 90%;
+    position: relative;
+    top: 63px;
+    right: -18px;
+}
+
+section.france .catedral {
+    width: 88%;
+    position: relative;
+    top: 5%;
+    right: -6%;;
+}
+
+section.france .visitors {
+    width: 91%;
+    position: relative;
+    top: 9%;
+    left: 5%;
+}
+
+section.tokio {
+    background: #e7e7e6;
+    max-width: 100%;
+    width: 100%;
+    position: relative;
+    height: 600px;
+}
+
+section.tokio .disney {
+    position: absolute;
+    top: 0%;
+    right: 0;
+}
+
+section.tokio .visitors2 {
+    width: 90%;
+    position: relative;
+    top: 37%;
+    right: -5%;
+}
+
+section div.canon img {
+    max-width: 100%;
+    width: 88%;
+    right: 0;
+    float: right;
+    max-height: 800px;
+}
+
+section.advert {
+    background: #e7e7e6;
+    width: 100%;
+    position: relative;
+    min-height: 350px;
+}
+
+section.beijin .forbiden {
+    width: 84%;
+    position: relative;
+    top: 0;
+    left: 8%;
+}
+
+.visitors3 {
+    position: relative;
+    width: 90%;
+    top: 86px;
+    right: -5%;
+}
+
+section.vegas {
+    background: #e7e7e6;
+    width: 100%;
+    position: relative;
+    height: 1100px;
+}
+
+section.vegas .lasvegas {
+    width: 88%;
+    position: relative;
+    top: 57px;
+    right: -6%;
+}
+
+section.vegas .visitors4 {
+    width: 90%;
+    position: absolute;
+    top: 49%;
+    left: 5%;
+}
+
+section.news .where {
+    background: #e7e7e6;
+    width: 100%;
+    position: relative;
+    height: 40%;
+    display: inline-block;
+}
+
+section.news .where h3 {
+    margin: 15%;
+    width: 81%;
+    float: left;
+    box-sizing: border-box;
+    padding-right: 61px;
+    line-height: 35px;
+}
+
+section.news .where form {
+    width: 94%;
+    margin: 3%;
+    float: left;
+    /* padding: 10px; */
+    box-sizing: border-box;
+}
+
+input[type="submit"] {
+    border-color: #4d506f;
+    background-color: #4d506f;
+    cursor: pointer;
+    color: white;
+    line-height: 4;
+    /* margin-left: 63px; */
+    width: 100%;
+    box-sizing: border-box;
+    text-transform: lowercase;
+}
+
     body{
         background: red;
     }
